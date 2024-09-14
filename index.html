@@ -1,0 +1,102 @@
+  <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <title>Student Details</title>
+    <style>
+        body{
+            text-align :justify;
+            background-color: #f2f2f2;
+            padding: 10px;
+            margin: 10px;    
+        }
+        p{
+            font-size: 16px;
+            color:black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style:  bold ;
+        }
+        legend{
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: bold ;
+        text-align: center;
+        padding: 10px;
+        margin: auto;
+        }
+        fieldset{
+            color: black;
+            width: fit-content;
+            padding: auto;
+            margin: auto;
+        }
+    </style>
+    </head>
+    <body>
+      <form>
+        <fieldset>
+        <legend>Student Registration</legend>
+         <p>
+             First name: <input type = "text" name = "fname" />
+      </p>
+
+       <p>
+             Last name: <input type = "text" name = "lname" />
+      </p>
+      <p>
+        Address : <input type = "text" name = "address " />
+ </p>
+ <p>Date of Birth 
+    <input type="date" name="dob" id="dob">
+     <label for="age">Age:</label>
+     <input type="number" name="age" id="age">
+ </p>
+       <p> Gender : 
+        <select name= "gender" id="gender">
+            <option value="male" selected>Male</option>
+            <option value="fmale">Female</option>    
+            <option value="other">Other</option>
+            </select>
+    </p>
+    <p>
+   Student Roll no. : <input type = "text" name = "Rollno." />
+    </p> 
+    <p>
+    Course : <input type = "text" name = "name " />
+    </p>
+    <p>
+        E mail : <input type = "text" name = "email" />
+        </p>
+    <p>
+    Phone Number: <input type = "text" name = "phone" />
+    </p>
+     <p>Section :<input type="radio" name="batch" value="section 1" >section 1
+        <input type="radio" name="batch" value="section 2" >section 2
+     </p>
+  <p>  Batch :  <ul>
+         <li><input type="checkbox" name="year" value="fyear" />First year </li>
+        <li><input type="checkbox" name="year" value="Secyear" />Second year</li>
+        <li><input type="checkbox" name="year " value="thirdyear" />Third year </li>
+        <li><input type="checkbox" name="year " value="Fourthyear " />Fourth year 
+    </ul>
+     </p>
+        <p>Programming languages :
+            <input type="checkbox" name="lang" value="c/c++" />c/c++
+        <input type="checkbox" name="languages" id="languages" value="Java"> Java
+        <input type="checkbox" name="languages" id="languages" value="web dev "> web dev.
+        <input type="checkbox" name="languages" id="languages" value="Python"> Python
+    </p>
+        <div> 
+            <p>
+        <label for="pword">Password:</label>
+        <input type="password" name="pword" id="pword">
+        <label for="cpword">Confirm Password:</label>
+        <input type="password" name="cpword" id="cpword"></p>
+        </div> 
+     <p>
+          <input type = "submit" name = "submit" value = "Submit" />
+          <input type = "submit" name = "Reset" value = "Reset" />
+        </p>
+    </fieldset>
+    </form>
+    </body>
+    </htm
